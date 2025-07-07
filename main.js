@@ -53,7 +53,8 @@ function geraSenha() {
         numeroAleatorio = Math.floor(numeroAleatorio);
         senha = senha + alfabeto[numeroAleatorio];
     }
-    campoSenha.value = senha; 
+    campoSenha.value = senha;
+    classificaSenha();
 }
 
 function classificaSenha() {
